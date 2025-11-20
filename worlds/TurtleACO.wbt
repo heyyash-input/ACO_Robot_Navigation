@@ -1,0 +1,158 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/devices/robotis/protos/RobotisLds01.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.44806706023322046 0.026225797392193325 0.893615195195954 3.037085881947836
+  position 8.581343386735943 -0.8269482322562047 10.606704563811016
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 6
+  wallHeight 0.2
+}
+DEF GOAL Pose {
+  translation -2.72 0 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Sphere {
+        radius 0.15
+      }
+    }
+  ]
+  rotationStep 0.261804
+}
+TurtleBot3Burger {
+  hidden position_0_0 4602.296727001953
+  hidden position_0_1 4558.492174871585
+  hidden position_0_2 7273.591755564682
+  hidden position2_0_2 -53.01699965816061
+  hidden position3_0_2 1275.6319044646398
+  hidden rotation_11 0 1 0 1.4342861464953607
+  hidden rotation_12 0.6923809729195127 -2.326300387272433e-06 -0.7215321117827103 3.1415925576523347
+  hidden rotation_13 0.20574909101825076 0.3702489083242878 -0.90586039621447 3.1619504060469494
+  translation -2.504863325492691 -2.3355914351736162 -0.0002477495447638506
+  rotation 0.0023211363020872898 0.0002241231310224631 0.9999972810438483 -2.9448663701416913
+  controller "pioneer_py"
+  supervisor TRUE
+  extensionSlot [
+    InertialUnit {
+      translation -1.86 0 0
+      name "imu"
+    }
+    RobotisLds01 {
+    }
+    Camera {
+    }
+    GPS {
+    }
+  ]
+}
+TurtleBot3Burger {
+  hidden position_0_0 4721.9198472307135
+  hidden position_0_1 4683.209543213236
+  hidden position_0_2 5668.645892412891
+  hidden position2_0_2 -44.96391674323336
+  hidden position3_0_2 -1843.8927218710494
+  hidden rotation_11 0 -1 0 4.60629976833551
+  hidden rotation_12 0.9451170416010424 -2.0925664475566125e-06 -0.32673196609899496 3.141594688426547
+  hidden rotation_13 0.4485195107293867 0.46474739251086705 -0.7634396568488053 3.5170307958494615
+  translation -2.50461134572504 0.3822837011097226 -0.00024773963034745855
+  rotation 0.0023207148547516403 -0.00011756646466137613 0.9999973002267003 3.044577912709497
+  name "TurtleBot3Burger(1)"
+  controller "pioneer_py"
+  extensionSlot [
+    InertialUnit {
+      translation -1.86 0 0
+      name "imu"
+    }
+    RobotisLds01 {
+    }
+    Camera {
+    }
+    GPS {
+    }
+  ]
+}
+TurtleBot3Burger {
+  hidden position_0_0 4751.885249368652
+  hidden position_0_1 4692.607449343889
+  hidden position_0_2 4125.361207078097
+  hidden position2_0_2 -50.735544399169385
+  hidden position3_0_2 -1645.0171517317872
+  hidden linearVelocity_0 -0.0010034549359088235 0.0005854678082961792 0.000395554442317679
+  hidden angularVelocity_0 -0.010590479577745678 -0.02099665433806858 -2.6442788472191836e-05
+  hidden rotation_11 0 1 0 0.22636114088445816
+  hidden linearVelocity_11 -0.0006676626381836859 0.00041461528450806306 -0.00036928863283048865
+  hidden angularVelocity_11 -0.012441706221600901 -0.020052390421722688 -0.0008076384852177959
+  hidden rotation_12 0.31400434486230644 1.0454412434675348e-06 0.9494215456826861 3.1415968110058645
+  hidden linearVelocity_12 -0.0006642152739759627 0.00041845660313811345 -0.0003868064342012738
+  hidden angularVelocity_12 -0.012634841604188374 -0.019953722754842307 -0.0010156301452215188
+  hidden rotation_13 0.8184735051177463 -0.4839014548624983 -0.30974264059413587 3.250485262772366
+  hidden linearVelocity_13 -6.59138019121347e-05 0.00011114180840605253 0.0015009939866639484
+  hidden angularVelocity_13 -0.02778572322856121 -0.016479086979323654 -4.919847366096789e-14
+  translation -2.499640151429484 -0.5330615294134958 -0.0002601863184347672
+  rotation 0.001942556133276808 -0.00047542217246830437 0.9999980002227139 2.6696912559272814
+  name "TurtleBot3Burger(2)"
+  controller "pioneer_py"
+  extensionSlot [
+    InertialUnit {
+      translation -1.86 0 0
+      name "imu"
+    }
+    RobotisLds01 {
+    }
+    Camera {
+    }
+    GPS {
+    }
+  ]
+}
+WoodenBox {
+  translation 0.18 0 0.3
+}
+WoodenBox {
+  translation -1.43 0 0.3
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation -1.43 1.71 0.3
+  name "wooden box(8)"
+}
+WoodenBox {
+  translation 0 -1.67 0.3
+  name "wooden box(4)"
+}
+WoodenBox {
+  translation -1.56 -1.67 0.3
+  name "wooden box(7)"
+}
+WoodenBox {
+  translation 0 1.65 0.3
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 1.81 0 0.3
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation 1.81 1.74 0.3
+  name "wooden box(5)"
+}
+WoodenBox {
+  translation 1.81 -1.83 0.3
+  name "wooden box(6)"
+}

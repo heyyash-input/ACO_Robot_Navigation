@@ -1,0 +1,188 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5512032963490198 -0.3269167201846917 0.7676590285782215 4.34632474512666
+  position -1.8510710350485338 6.188413046103974 11.397650813682612
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -1.56 -0.13 0
+  floorSize 7 7
+  wallHeight 0.3
+}
+Cabinet {
+  hidden position_6_0 7.683393873014863e-05
+  hidden translation_7 -1.528995379225565e-05 -5.873936892442089e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 7.683393603473689e-05
+  hidden position_10_0 -6.532040827311255e-05
+  hidden translation_11 -1.104894705153979e-05 3.6086095223097914e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  translation 0 2.08 0
+}
+Cabinet {
+  hidden position_6_0 7.683393873016585e-05
+  hidden translation_7 -1.5289953792259076e-05 -5.873936892442089e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827312263e-05
+  hidden translation_11 -1.1048947051541496e-05 3.6086095223097914e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  name "cabinet(7)"
+}
+Cabinet {
+  hidden position_6_0 7.683393873018317e-05
+  hidden translation_7 -1.528995379226252e-05 -5.873937169997845e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827328744e-05
+  hidden translation_11 -1.1048947051569377e-05 3.608608967198279e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.042826539212636856
+  hidden translation_15 0.042826539212636856 0 0
+  hidden position_22_0 0.09817391436533057
+  hidden translation_23 0.09817391436533057 0 0
+  hidden position_30_0 0.03999064789858089
+  hidden translation_31 0.03999064789858089 0 0
+  hidden position_38_0 0.20366486824209662
+  hidden translation_39 0.20366486824209662 0 0
+  translation -1.77 2.11 0
+  name "cabinet(3)"
+}
+Cabinet {
+  hidden position_6_0 7.683393873013569e-05
+  hidden translation_7 -1.528995379225307e-05 -5.873937447553601e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827386557e-05
+  hidden translation_11 -1.1048947051667172e-05 3.608608412086767e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 6.532040904582193e-05
+  hidden position_14_0 0.1955077631197577
+  hidden translation_15 0.1955077631197577 0 0
+  hidden position_22_0 0.1955077631197577
+  hidden translation_23 0.1955077631197577 0 0
+  hidden position_30_0 0.1955077631197577
+  hidden translation_31 0.1955077631197577 0 0
+  hidden position_38_0 0.038948741721908764
+  hidden translation_39 0.038948741721908764 0 0
+  translation -3.78 2.11 0
+  name "cabinet(8)"
+}
+Cabinet {
+  hidden position_6_0 7.683393873016587e-05
+  hidden translation_7 -1.5289953792259073e-05 -5.873937169997845e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827329747e-05
+  hidden translation_11 -1.1048947051571071e-05 3.608608967198279e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.1630025948298676
+  hidden translation_15 0.1630025948298676 0 0
+  hidden position_22_0 0.16382967261487213
+  hidden translation_23 0.16382967261487213 0 0
+  hidden position_30_0 0.16187488678262005
+  hidden translation_31 0.16187488678262005 0 0
+  hidden position_38_0 0.21247404130851028
+  hidden translation_39 0.21247404130851028 0 0
+  translation -1.77 0 0
+  name "cabinet(4)"
+}
+Cabinet {
+  hidden position_6_0 7.6833938730196e-05
+  hidden translation_7 -1.528995379226507e-05 -5.873937169997845e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 7.683393603473689e-05
+  hidden position_10_0 -6.532040827324955e-05
+  hidden translation_11 -1.1048947051562967e-05 3.608608967198279e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.0012443878419819275
+  hidden translation_15 0.0012443878419819275 0 0
+  hidden position_22_0 -0.007287535454351728
+  hidden translation_23 -0.007287535454351728 0 0
+  hidden position_30_0 -0.00870845368534741
+  hidden translation_31 -0.00870845368534741 0 0
+  hidden position_38_0 0.19792293895519705
+  hidden translation_39 0.19792293895519705 0 0
+  translation 0.06 -2.01 0
+  name "cabinet(5)"
+}
+Cabinet {
+  hidden position_6_0 7.683393873012705e-05
+  hidden translation_7 -1.528995379225135e-05 -5.873937447553601e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.53204082732936e-05
+  hidden translation_11 -1.1048947051570424e-05 3.608608412086767e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.18732999038077977
+  hidden translation_15 0.18732999038077977 0 0
+  hidden position_22_0 0.18732999038078463
+  hidden translation_23 0.18732999038078463 0 0
+  hidden position_30_0 0.18732999038077666
+  hidden translation_31 0.18732999038077666 0 0
+  hidden position_38_0 0.20855686310101246
+  hidden translation_39 0.20855686310101246 0 0
+  translation -1.87 -2.01 0
+  name "cabinet(6)"
+}
+Cabinet {
+  hidden position_6_0 7.683393873017873e-05
+  hidden translation_7 -1.528995379226163e-05 -5.873937447553601e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827387221e-05
+  hidden translation_11 -1.1048947051668294e-05 3.608608412086767e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.0016731759807706512
+  hidden translation_15 0.0016731759807706512 0 0
+  hidden position_22_0 0.001673175980758456
+  hidden translation_23 0.001673175980758456 0 0
+  hidden position_30_0 0.0016731759807695583
+  hidden translation_31 0.0016731759807695583 0 0
+  hidden position_38_0 0.02021830667866122
+  hidden translation_39 0.02021830667866122 0 0
+  translation -3.64 -2.01 0
+  name "cabinet(1)"
+}
+Cabinet {
+  hidden position_6_0 7.68339387301486e-05
+  hidden translation_7 -1.5289953792255637e-05 -5.873937169997845e-10 0
+  hidden rotation_7 0 0 1 7.683393603473689e-05
+  hidden position_10_0 -6.532040827387576e-05
+  hidden translation_11 -1.104894705166889e-05 3.608608967198279e-10 0
+  hidden rotation_11 0 0 -1 6.532040904582193e-05
+  hidden position_14_0 0.02608462821809073
+  hidden translation_15 0.02608462821809073 0 0
+  hidden position_22_0 0.025038864324725803
+  hidden translation_23 0.025038864324725803 0 0
+  hidden position_30_0 0.02608095171294523
+  hidden translation_31 0.02608095171294523 0 0
+  hidden position_38_0 -0.008974941546231692
+  hidden translation_39 -0.008974941546231692 0 0
+  translation -3.72 0 0
+  name "cabinet(2)"
+}
+TurtleBot3Burger {
+  hidden position_0_0 -4.30141243512594e-07
+  hidden position_0_1 -3.995168373585567e-08
+  hidden position_0_2 -0.005751654112830293
+  hidden position2_0_2 -0.021164618561039107
+  hidden position3_0_2 11.900897541414256
+  hidden linearVelocity_0 2.594162000233466e-14 -1.8714341877602052e-17 1.8706621434343333e-14
+  hidden angularVelocity_0 -8.767785356348495e-15 5.358368975815375e-13 -8.112393459037777e-17
+  hidden rotation_8 0 -1 0 1.5707964301412434
+  hidden linearVelocity_8 1.7672634224142004e-14 -2.1671764226042812e-16 1.719329330832701e-15
+  hidden angularVelocity_8 -5.620609659192377e-16 5.35437141274895e-13 -1.1912019491409062e-16
+  hidden rotation_9 -0.7071047670592447 -4.6479686913580156e-14 -0.7071087953081134 3.141588
+  hidden linearVelocity_9 1.7682551847266243e-14 -3.36103814447526e-17 -2.1029756027559835e-16
+  hidden angularVelocity_9 -8.468701412401003e-15 5.359367941441121e-13 -7.128314146565154e-17
+  hidden rotation_10 0.002259995013993749 -0.03348246558176472 -0.9994367498351773 0.6657601211101194
+  hidden linearVelocity_10 2.263538799355586e-15 -4.751855707644809e-16 7.374059059707547e-14
+  hidden angularVelocity_10 1.1879640308885382e-13 5.658847566451012e-13 0.061536673514622685
+  translation -0.2857211848637201 -0.0005577947284386503 -0.00024773920598921556
+  rotation -0.0018689094434028977 -0.9949829412075719 0.10002726570001691 0.00466534494327406
+  controller "pioneer_py"
+}

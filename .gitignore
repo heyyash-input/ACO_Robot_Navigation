@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Webots temporary files
+*/.webots_cache/
+*.bak
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
